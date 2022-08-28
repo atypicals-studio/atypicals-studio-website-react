@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Atypicals.studio`,
+    description: `We design, build and ship digital products that make you stand out.`,
+    author: `Atypicals.studio`,
+    siteUrl: `https://www.atypicals.studio`,
   },
   plugins: [
     `gatsby-plugin-image`,

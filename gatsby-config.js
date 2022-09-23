@@ -30,5 +30,17 @@ module.exports = {
         icon: `src/images/atypicals-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "333725890",
+        head: false,
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+        // Defers execution of google analytics script after page load
+        defer: false,
+        enableWebVitalsTracking: true,
+      },
+    },
   ],
 }

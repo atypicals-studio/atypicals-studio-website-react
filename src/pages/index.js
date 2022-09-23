@@ -9,18 +9,22 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
+        src="../images/logo.jpg"
         loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
+        width={645}
+        quality={87}
+        alt="Atypicals.studio"
         style={{ marginBottom: `var(--space-3)` }}
       />
-      <h1>
-        Welcome to <b>Atypicals.studio!</b>
+      <h1 style={{ marginTop: "20px" }}>
+        New challenges, <b>atypical solutions.</b>
       </h1>
-      <p className={styles.intro}>Coming soon...</p>
+      <p className={styles.intro}>New website coming soon...</p>
+      <p className={styles.intro}>
+        <a href="mailto:hello@atypicals.studio">hello@atypicals.studio</a>
+        <br />
+        <a href="tel:+32473788644">+32 473 78 86 44</a>
+      </p>
     </div>
   </Layout>
 )

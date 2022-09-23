@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Atypicals.studio`,
-    description: `We design, build and ship digital products that make you stand out.`,
+    description: `We help companies face the next big shifts in digital and use technologies in new ways for maximal impact. Software development, design, and strategy. Web, mobile, VR, AI and more.`,
     author: `Atypicals.studio`,
     siteUrl: `https://www.atypicals.studio`,
   },
@@ -27,7 +27,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/atypicals-icon.png`, // This path is relative to the root of the site.
       },
     },
   ],
